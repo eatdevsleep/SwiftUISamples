@@ -1,10 +1,11 @@
 # SwiftUI Samples
 
-This is a collection of SwiftUI samples. They are designed to demonstrate individual best practises. This will culminate in the ultimate goal of a StarterSwiftUI template which incorporates all of the concepts in a cohesive start project.
+This is a collection of SwiftUI samples. Each project is designed to demonstrate a single best practise in an isolated manner, with a test app and unit tests. 
+This will culminate in the ultimate goal of creating a _Starter Swift UI_ template which incorporates all of the concepts in a cohesive starter SwiftUI project.
 
 ## Features
 1. Event Aggregator
-  * Demonstrates the use of an Environment level _Event Aggregator_ that allows a pub/sub pattern to be used between Views or View Models. This allows components in a SwiftUI app to communicate in a decoupled manner.
+    * Demonstrates the use of an Environment level simple _Event Aggregator_ that allows a pub/sub pattern to be used between Views or View Models. This allows components in a SwiftUI app to communicate in a decoupled manner.
 
 ## Usage
 
