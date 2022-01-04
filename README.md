@@ -5,7 +5,7 @@ This will culminate in the ultimate goal of creating a _Starter Swift UI_ templa
 
 ## Features
 1. Event Aggregator
-    * Demonstrates the use of an Environment level simple _Event Aggregator_ that allows a pub/sub pattern to be used between Views or View Models. This allows components in a SwiftUI app to communicate in a decoupled manner.
+    * Demonstrates the use of a simple _Event Aggregator_ that allows a pub/sub pattern to be used between Views or View Models. This enables components in a SwiftUI app to communicate in a decoupled manner.
 
 ## Usage
 
