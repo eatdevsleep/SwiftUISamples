@@ -112,8 +112,8 @@
 		D27E995F2784E18A00EA530A /* ModelViewViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				D27E99A32786428E00EA530A /* Views */,
-				D27E99A12786421A00EA530A /* AppFramework */,
+				D27E99A8278657C600EA530A /* AppFramework */,
+				D27E99A62786576400EA530A /* Views */,
 				D27E99642784E18A00EA530A /* Assets.xcassets */,
 				D27E99662784E18A00EA530A /* Preview Content */,
 				D27E99A22786425E00EA530A /* Services */,
@@ -146,29 +146,6 @@
 			path = ModelViewViewModelUITests;
 			sourceTree = "<group>";
 		};
-		D27E99A0278641F700EA530A /* ContentView */ = {
-			isa = PBXGroup;
-			children = (
-				D27E99622784E18A00EA530A /* ContentView.swift */,
-				D27E99942784F5E800EA530A /* ContentViewModel.swift */,
-				D27E99982784FAA600EA530A /* ContentViewParam.swift */,
-				D27E999A27860ABD00EA530A /* ContentViewFactory.swift */,
-			);
-			name = ContentView;
-			sourceTree = "<group>";
-		};
-		D27E99A12786421A00EA530A /* AppFramework */ = {
-			isa = PBXGroup;
-			children = (
-				D27E998E2784E8F500EA530A /* AppContext.swift */,
-				D27E999C27860EA300EA530A /* AppContextView.swift */,
-				D27E99922784F3AC00EA530A /* DependencyView.swift */,
-				D27E99602784E18A00EA530A /* ModelViewViewModelApp.swift */,
-				D27E998C2784E4CE00EA530A /* ViewModelFactory.swift */,
-			);
-			name = AppFramework;
-			sourceTree = "<group>";
-		};
 		D27E99A22786425E00EA530A /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,13 +154,36 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		D27E99A32786428E00EA530A /* Views */ = {
+		D27E99A62786576400EA530A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D27E99A7278657A800EA530A /* ContentView */,
 				D27E999E27860EEE00EA530A /* RootContentView.swift */,
-				D27E99A0278641F700EA530A /* ContentView */,
 			);
-			name = Views;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D27E99A7278657A800EA530A /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				D27E99622784E18A00EA530A /* ContentView.swift */,
+				D27E99942784F5E800EA530A /* ContentViewModel.swift */,
+				D27E99982784FAA600EA530A /* ContentViewParam.swift */,
+				D27E999A27860ABD00EA530A /* ContentViewFactory.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		D27E99A8278657C600EA530A /* AppFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D27E998E2784E8F500EA530A /* AppContext.swift */,
+				D27E999C27860EA300EA530A /* AppContextView.swift */,
+				D27E99922784F3AC00EA530A /* DependencyView.swift */,
+				D27E99602784E18A00EA530A /* ModelViewViewModelApp.swift */,
+				D27E998C2784E4CE00EA530A /* ViewModelFactory.swift */,
+			);
+			path = AppFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
